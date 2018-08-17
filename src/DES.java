@@ -1,9 +1,10 @@
 import java.util.Arrays;
 
+// Methods changed from private to package-private to allow testing.
 @SuppressWarnings("FieldCanBeLocal")
 class DES {
     // The 56 bit key, and the subkeys.
-    private int[] key = new int[56];
+    private int[] key;
     private int[][] subkeys = new int[16][48];
 
     // The number of rotations that are to be done on each round.
@@ -152,7 +153,7 @@ class DES {
 
 
     // Permute a bit or byte array. Return a bit array.
-    private int[] permute(int[] array, int[] order, boolean bit) {
+    int[] permute(int[] array, int[] order, boolean bit) {
         int[] newOrder = new int[order.length];
         for(int i=0; i<order.length; i++) {
             newOrder[i] = bit? array[order[i]-1] : getBit(array, order[i]-1);
@@ -163,7 +164,7 @@ class DES {
 
 
     // Gets a bit from a byte array.
-    private int getBit(int[] array, int pos) {
+    int getBit(int[] array, int pos) {
         // Retrieve the right byte.
         int ibyte = array[pos/8];
         int offset = pos%8;
@@ -183,10 +184,16 @@ class DES {
 
 
     // Shift left function.
-    private int[] shift(int[] array, int amount) {
+    int[] shift(int[] array, int amount) {
+        if(array == null || amount == 0 || array.length < 2)
+            return array;
+
+        // Speed optimization + dealing with negatives.
+        amount = amount%array.length;
+        if(amount < 0)
+            amount += array.length;
+
         int[] result = Arrays.copyOf(array, array.length);
-        if(amount == 0)
-            return result;
 
         int first = result[0];
         for(int i=1; i<result.length; i++)

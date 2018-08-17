@@ -12,12 +12,12 @@ public class Main {
     public static void main(String[] args) {
         DES des = new DES(key);
 
-        int[] encrypted = des.encrypt(message);
-        int[] decrypted = des.decrypt(encrypted);
-
-        System.out.println("Message: " + Arrays.toString(message));
-        System.out.println("Encrypted: " + Arrays.toString(toByteArray(encrypted)));
-        System.out.println("Decrypted: " + Arrays.toString(toByteArray(decrypted)));
+//        int[] encrypted = des.encrypt(message);
+//        int[] decrypted = des.decrypt(encrypted);
+//
+//        System.out.println("Message: " + Arrays.toString(message));
+//        System.out.println("Encrypted: " + Arrays.toString(toByteArray(encrypted)));
+//        System.out.println("Decrypted: " + Arrays.toString(toByteArray(decrypted)));
     }
 
     // Converts a bit array to a byte array.
@@ -38,5 +38,3 @@ public class Main {
         return byteArray;
     }
 }
-
-// Github test 2.
