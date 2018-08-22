@@ -18,6 +18,8 @@ public class Main {
 //        System.out.println("Message: " + Arrays.toString(message));
 //        System.out.println("Encrypted: " + Arrays.toString(toByteArray(encrypted)));
 //        System.out.println("Decrypted: " + Arrays.toString(toByteArray(decrypted)));
+
+        System.out.println(des.getBit(new int[]{220, 75}, 12));
     }
 
     // Converts a bit array to a byte array.

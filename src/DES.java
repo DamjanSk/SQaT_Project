@@ -1,3 +1,4 @@
+import java.security.InvalidParameterException;
 import java.util.Arrays;
 
 // Methods changed from private to package-private to allow testing.
@@ -165,6 +166,15 @@ class DES {
 
     // Gets a bit from a byte array.
     int getBit(int[] array, int pos) {
+        // Edge cases / error checking.
+        if(array == null)
+            throw new NullPointerException("Array cannot be null.");
+        if(pos < 0 || pos > array.length*8)
+            throw new InvalidParameterException("Invalid position.");
+        for(int element: array)
+            if(element < 0 || element > 255)
+                throw new InvalidParameterException("Invalid element(s) in array.");
+
         // Retrieve the right byte.
         int ibyte = array[pos/8];
         int offset = pos%8;
@@ -185,6 +195,7 @@ class DES {
 
     // Shift left function.
     int[] shift(int[] array, int amount) {
+        // Edge cases.
         if(array == null || amount == 0 || array.length < 2)
             return array;
 
