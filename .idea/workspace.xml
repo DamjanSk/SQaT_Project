@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415eb764-b2b2-4aa9-b64f-587f8db1cc36" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SQaT Project/DES.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQaT Project/DES.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SQaT Project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SQaT Project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SQaT Project/ArrayWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SQaT Project/DESInputSpaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SQaT Project/DESInputSpaceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/DESInputSpaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DESInputSpaceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,15 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DES.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DES.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DES.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="167" column="37" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+            <state relative-caret-position="643">
+              <caret line="207" column="41" selection-start-line="207" selection-start-column="41" selection-end-line="207" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#DES#0;class#DES#0" />
-                <element signature="method#permute#0;class#DES#0" />
                 <element signature="method#getBit#0;class#DES#0" />
                 <element signature="method#shift#0;class#DES#0" />
                 <element signature="method#encrypt#0;class#DES#0" />
@@ -43,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DESInputSpaceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DESInputSpaceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/DESInputSpaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="107" column="67" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+            <state relative-caret-position="711">
+              <caret line="206" column="77" selection-start-line="206" selection-start-column="77" selection-end-line="206" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +71,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/src/DES.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/DES.java" />
         <option value="$PROJECT_DIR$/test/DESInputSpaceTest.java" />
       </list>
     </option>
@@ -93,15 +86,13 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="630" />
     <option name="width" value="655" />
-    <option name="height" value="1004" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +125,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,27 +309,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DESInputSpaceTest_shiftNull - 2018.08.18 at 11h 56m 29s.xml">
-      <configuration name="DESInputSpaceTest.shiftNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DESInputSpaceTest_shiftSpeed - 2018.08.18 at 12h 43m 12s.xml">
-      <configuration name="DESInputSpaceTest.shiftSpeed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DESInputSpaceTest - 2018.08.22 at 14h 33m 54s.xml">
-      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DESInputSpaceTest - 2018.08.22 at 15h 34m 58s.xml">
-      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DESInputSpaceTest - 2018.08.22 at 19h 29m 45s.xml">
-      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DESInputSpaceTest - 2018.08.22 at 19h 58m 19s.xml">
-      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DESInputSpaceTest - 2018.08.22 at 20h 07m 27s.xml">
-      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DESInputSpaceTest - 2018.08.22 at 20h 08m 04s.xml">
       <configuration name="DESInputSpaceTest" configurationId="JUnit" />
     </history-entry>
@@ -344,6 +316,27 @@
       <configuration name="DESInputSpaceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DESInputSpaceTest - 2018.08.22 at 20h 16m 56s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.08.23 at 13h 33m 20s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.08.23 at 13h 33m 47s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.08.23 at 13h 34m 53s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.08.23 at 13h 37m 21s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.08.23 at 14h 47m 52s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.08.23 at 14h 55m 36s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.08.23 at 14h 59m 28s.xml">
       <configuration name="DESInputSpaceTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -356,7 +349,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32951945" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32827586" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -380,8 +373,8 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +382,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Input space tests for the getBit(int[] array, int pos) function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Input space tests for the getBit(int[] array, int pos) function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -398,12 +395,73 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DES.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DES#0;class#DES#0" />
+            <element signature="method#getBit#0;class#DES#0" />
+            <element signature="method#shift#0;class#DES#0" />
+            <element signature="method#encrypt#0;class#DES#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DESInputSpaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="23" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2839">
+          <caret line="167" column="37" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DES#0;class#DES#0" />
+            <element signature="method#getBit#0;class#DES#0" />
+            <element signature="method#shift#0;class#DES#0" />
+            <element signature="method#encrypt#0;class#DES#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DESInputSpaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="107" column="67" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DES.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#DES#0;class#DES#0" />
-            <element signature="method#permute#0;class#DES#0" />
             <element signature="method#getBit#0;class#DES#0" />
             <element signature="method#shift#0;class#DES#0" />
             <element signature="method#encrypt#0;class#DES#0" />
@@ -455,7 +513,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#DES#0;class#DES#0" />
-            <element signature="method#permute#0;class#DES#0" />
             <element signature="method#getBit#0;class#DES#0" />
             <element signature="method#shift#0;class#DES#0" />
             <element signature="method#encrypt#0;class#DES#0" />
@@ -552,10 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding>
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,10 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-          <folding>
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,27 +626,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DESInputSpaceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/DES.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="107" column="67" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+        <state relative-caret-position="643">
+          <caret line="207" column="41" selection-start-line="207" selection-start-column="41" selection-end-line="207" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#DES#0;class#DES#0" />
+            <element signature="method#getBit#0;class#DES#0" />
+            <element signature="method#shift#0;class#DES#0" />
+            <element signature="method#encrypt#0;class#DES#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DES.java">
+    <entry file="file://$PROJECT_DIR$/test/DESInputSpaceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="167" column="37" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+        <state relative-caret-position="711">
+          <caret line="206" column="77" selection-start-line="206" selection-start-column="77" selection-end-line="206" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#DES#0;class#DES#0" />
-            <element signature="method#permute#0;class#DES#0" />
-            <element signature="method#getBit#0;class#DES#0" />
-            <element signature="method#shift#0;class#DES#0" />
-            <element signature="method#encrypt#0;class#DES#0" />
           </folding>
         </state>
       </provider>

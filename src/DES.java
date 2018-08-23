@@ -155,6 +155,17 @@ class DES {
 
     // Permute a bit or byte array. Return a bit array.
     int[] permute(int[] array, int[] order, boolean bit) {
+        // Edge cases / error checking.
+        if(array == null || order == null)
+            throw new NullPointerException("Array or order is null.");
+        for(int element: array)
+            if(element < 0 || element > 256)
+                throw new InvalidParameterException("Element(s) in array not in byte range.");
+        for(int element: order)
+            if(element < 0 || element > array.length*8 || element > array.length && bit)
+                throw new InvalidParameterException("Invalid order.");
+
+        // If its a bit array, copy the bits in specified order, otherwise retrieve bits first.
         int[] newOrder = new int[order.length];
         for(int i=0; i<order.length; i++) {
             newOrder[i] = bit? array[order[i]-1] : getBit(array, order[i]-1);
@@ -173,7 +184,7 @@ class DES {
             throw new InvalidParameterException("Invalid position.");
         for(int element: array)
             if(element < 0 || element > 255)
-                throw new InvalidParameterException("Invalid element(s) in array.");
+                throw new InvalidParameterException("Element(s) in array not in byte range.");
 
         // Retrieve the right byte.
         int ibyte = array[pos/8];
@@ -206,11 +217,13 @@ class DES {
 
         int[] result = Arrays.copyOf(array, array.length);
 
+        // Move each element left once. Wrap edges.
         int first = result[0];
         for(int i=1; i<result.length; i++)
             result[i-1] = result[i];
         result[result.length-1] = first;
 
+        // Recursively shift by amount.
         return shift(result, amount-1);
     }
 
