@@ -6,20 +6,21 @@ public class Main {
             0b11111111, 0b00000000, 0b11111111, 0b00000000
     };
 
-    private static int[] message = {51, 232, 204, 0, 255, 110, 63, 210};
-
+    private static int[] message = {0, 0, 0, 212, 0, 0, 0, 0};
+    private static int[] message2 = {0,0,0,0,1,1,1,1, 1,0,1,1,0,1,0,0,
+            1,1,0,0,1,1,0,0, 0,1,0,0,1,0,0,1,
+            0,1,0,1,0,1,1,1, 0,0,1,0,0,1,0,0,
+            0,1,0,1,0,1,0,1, 1,1,1,1,1,0,1,1};
 
     public static void main(String[] args) {
         DES des = new DES(key);
-
-//        int[] encrypted = des.encrypt(message);
-//        int[] decrypted = des.decrypt(encrypted);
 //
-//        System.out.println("Message: " + Arrays.toString(message));
-//        System.out.println("Encrypted: " + Arrays.toString(toByteArray(encrypted)));
-//        System.out.println("Decrypted: " + Arrays.toString(toByteArray(decrypted)));
+        int[] encrypted = des.encrypt(message, true, false);
+        int[] decrypted = des.encrypt(encrypted, true, true);
 
-        System.out.println(des.getBit(new int[]{220, 75}, 12));
+        System.out.println("Message: " + Arrays.toString(message));
+        System.out.println("Encrypted: " + Arrays.toString(encrypted));
+        System.out.println("Decrypted: " + Arrays.toString(decrypted));
     }
 
     // Converts a bit array to a byte array.

@@ -1,4 +1,4 @@
-import java.security.InvalidParameterException;
+import java.lang.IllegalArgumentException;
 import java.util.Arrays;
 
 // Methods changed from private to package-private to allow testing.
@@ -155,15 +155,15 @@ class DES {
 
     // Permute a bit or byte array. Return a bit array.
     int[] permute(int[] array, int[] order, boolean bit) {
-        // Edge cases / error checking.
+        // Make sure arguments are valid.
         if(array == null || order == null)
             throw new NullPointerException("Array or order is null.");
         for(int element: array)
-            if(element < 0 || element > 256)
-                throw new InvalidParameterException("Element(s) in array not in byte range.");
+            if(element < 0 || element > 255)
+                throw new IllegalArgumentException("Element(s) in array not in byte range.");
         for(int element: order)
             if(element < 0 || element > array.length*8 || element > array.length && bit)
-                throw new InvalidParameterException("Invalid order.");
+                throw new IllegalArgumentException("Invalid order.");
 
         // If its a bit array, copy the bits in specified order, otherwise retrieve bits first.
         int[] newOrder = new int[order.length];
@@ -177,14 +177,14 @@ class DES {
 
     // Gets a bit from a byte array.
     int getBit(int[] array, int pos) {
-        // Edge cases / error checking.
+        // Make sure arguments are valid.
         if(array == null)
             throw new NullPointerException("Array cannot be null.");
         if(pos < 0 || pos > array.length*8)
-            throw new InvalidParameterException("Invalid position.");
+            throw new IllegalArgumentException("Invalid position.");
         for(int element: array)
             if(element < 0 || element > 255)
-                throw new InvalidParameterException("Element(s) in array not in byte range.");
+                throw new IllegalArgumentException("Element(s) in array not in byte range.");
 
         // Retrieve the right byte.
         int ibyte = array[pos/8];
@@ -206,7 +206,7 @@ class DES {
 
     // Shift left function.
     int[] shift(int[] array, int amount) {
-        // Edge cases.
+        // Make sure arguments are valid.
         if(array == null || amount == 0 || array.length < 2)
             return array;
 
@@ -229,6 +229,15 @@ class DES {
 
 
     int[] encrypt(int[] message, boolean reverse, boolean bits) {
+        // Make sure arguments are valid.
+        if(message == null)
+            throw new NullPointerException("Message argument is null.");
+        if(!bits && message.length != 8 || bits && message.length != 64)
+            throw new IllegalArgumentException("Message length should be 64 (bits), or 8 (bytes) when bits is false.");
+        for(int element: message)
+            if(element < 0 || bits && element > 1 || !bits && element > 255)
+                throw new IllegalArgumentException("Elements in message should be 0-1, or 0-255 when bits is false.");
+
         // Do the initial permutation.
         int[] cipher = permute(message, PMessage1, bits);
 
