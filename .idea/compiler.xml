@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SQaT Project" />
+        <module name="com.skit.project" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SQaT Project" target="10" />
-    </bytecodeTargetLevel>
   </component>
 </project>
