@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="415eb764-b2b2-4aa9-b64f-587f8db1cc36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_runner_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="415eb764-b2b2-4aa9-b64f-587f8db1cc36" name="Default" comment="Input space tests for the permute(int[] array, int[] order, boolean bit) function.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQaTProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SQaTProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DESInputSpaceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DESPitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PITConstructorParameterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PITEncryptTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PITGetBitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PITPermuteExceptionTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PITPermuteTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PITShiftTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,12 +77,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -138,11 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DESInputSpaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PITPermuteExceptionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -191,6 +179,7 @@
         <option value="$PROJECT_DIR$/test/PITShiftExceptionTest.java" />
         <option value="$PROJECT_DIR$/test/DESPitTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PITPermuteExceptionTests.java" />
       </list>
     </option>
   </component>
@@ -253,36 +242,19 @@
             <path>
               <item name="com.skit.project" type="b2602c69:ProjectViewProjectNode" />
               <item name="t" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.skit.project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.skit.project" type="b2602c69:ProjectViewProjectNode" />
               <item name="t" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.skit.project" type="b2602c69:ProjectViewProjectNode" />
               <item name="t" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.skit.project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.skit.project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537726397874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537726906744" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -477,14 +449,26 @@
       <workItem from="1537099599575" duration="340000" />
       <workItem from="1537105217839" duration="1684000" />
       <workItem from="1537357791965" duration="3574000" />
-      <workItem from="1537724844923" duration="1485000" />
+      <workItem from="1537724844923" duration="2020000" />
     </task>
+    <task id="LOCAL-00001" summary="Input space tests for the permute(int[] array, int[] order, boolean bit) function.">
+      <created>1537726385524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537726385524</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Input space tests for the permute(int[] array, int[] order, boolean bit) function.">
+      <created>1537726450353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537726450353</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DESPitTest_test - 2018.09.19 at 14h 41m 32s.xml">
-      <configuration name="DESPitTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DESPitTest_test - 2018.09.19 at 14h 42m 22s.xml">
       <configuration name="DESPitTest.test" configurationId="JUnit" />
     </history-entry>
@@ -512,13 +496,15 @@
     <history-entry file="PITGetBitTest_testBadPosition - 2018.09.23 at 20h 02m 25s.xml">
       <configuration name="PITGetBitTest.testBadPosition" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DESInputSpaceTest - 2018.09.23 at 20h 12m 28s.xml">
+      <configuration name="DESInputSpaceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49035000" />
+    <option name="totallyTimeSpent" value="49570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -536,7 +522,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32447553" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32867134" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24475524" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -759,6 +745,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PITPermuteExceptionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
