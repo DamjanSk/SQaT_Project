@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com.skit.project" />
+        <module name="SQaTProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SQaTProject" target="10" />
+    </bytecodeTargetLevel>
   </component>
 </project>
