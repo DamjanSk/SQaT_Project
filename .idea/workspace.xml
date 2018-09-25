@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="415eb764-b2b2-4aa9-b64f-587f8db1cc36" name="Default" comment="Input space tests for the permute(int[] array, int[] order, boolean bit) function.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DUEncryptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DUShiftTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQaT Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQaTProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SQaTProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="415eb764-b2b2-4aa9-b64f-587f8db1cc36" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/DUEncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DUEncryptTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,8 +103,8 @@
       <file leaf-file-name="DESInputSpaceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DESInputSpaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="221">
+              <caret line="272" selection-start-line="272" selection-end-line="278" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +115,8 @@
       <file leaf-file-name="DES.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DES.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1437">
-              <caret line="287" column="9" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
+            <state relative-caret-position="179">
+              <caret line="231" column="62" selection-start-line="231" selection-start-column="58" selection-end-line="231" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#138#174#1" expanded="true" />
@@ -134,11 +128,8 @@
       <file leaf-file-name="DUShiftTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DUShiftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -146,8 +137,11 @@
       <file leaf-file-name="DUEncryptTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DUEncryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="303">
+              <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/test/java/PITPermuteExceptionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/DUShiftTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DUEncryptTest.java" />
       </list>
     </option>
   </component>
@@ -605,10 +600,10 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32447553" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.43024772" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30620688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30620688" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22786458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22786458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24965326" />
       <window_info id="UI Designer" order="4" />
@@ -667,7 +662,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Input space tests for the getBit(int[] array, int pos) function." />
     <MESSAGE value="Input space tests for the permute(int[] array, int[] order, boolean bit) function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Input space tests for the permute(int[] array, int[] order, boolean bit) function." />
+    <MESSAGE value="DU Tests for shift and encrypt." />
+    <option name="LAST_COMMIT_MESSAGE" value="DU Tests for shift and encrypt." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,10 +798,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DUShiftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DESInputSpaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="272" selection-start-line="272" selection-end-line="278" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DES.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1437">
-          <caret line="287" column="9" selection-start-line="287" selection-start-column="9" selection-end-line="287" selection-end-column="9" />
+        <state relative-caret-position="179">
+          <caret line="231" column="62" selection-start-line="231" selection-start-column="58" selection-end-line="231" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#138#174#1" expanded="true" />
@@ -813,30 +826,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DESInputSpaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DUShiftTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DUEncryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="303">
+          <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

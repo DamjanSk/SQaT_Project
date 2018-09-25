@@ -9,13 +9,12 @@ public class DUEncryptTest {
             0b00001111, 0b00000000, 0b11111111, 0b00000000,
             0b11111111, 0b00000000, 0b11111111, 0b00000000
     };
-    
+
     @Test
     public void paths() {
         des = new DES(key);
 
         // A test with these values detours all DU subpaths listed in the table.
-        // (1, 2), (5, 6, 7, 9), (6, 7, 9), (7, 8), (8, 7)
         int[] message = {0,0,0,0,1,1,1,1, 1,0,1,1,0,1,0,0,
                 1,1,0,0,1,1,0,0, 0,1,0,0,1,0,0,1,
                 0,1,0,1,0,1,1,1, 0,0,1,0,0,1,0,0,
