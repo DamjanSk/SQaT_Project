@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         DES des = new DES(key);
-//
+
         int[] encrypted = des.encrypt(message, true, false);
         int[] decrypted = des.encrypt(encrypted, true, true);
 
